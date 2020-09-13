@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculatorKata.Library", "StringCalculatorKata.Library\StringCalculatorKata.Library.csproj", "{72DFDC31-13F1-470E-8B19-F9126094A43D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringCalculatorKata.Library", "StringCalculatorKata.Library\StringCalculatorKata.Library.csproj", "{72DFDC31-13F1-470E-8B19-F9126094A43D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculatorKata.App", "StringCalculatorKata.App\StringCalculatorKata.App.csproj", "{540AE36C-AE83-41BC-8C5D-B20010F3FB8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculatorKata.Tests", "StringCalculatorKata.Tests\StringCalculatorKata.Tests.csproj", "{ACD21DF7-822E-4C90-8DEB-5F0952E9B6E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculatorKata.App", "StringCalculatorKata.App\StringCalculatorKata.App.csproj", "{52036EC8-06C6-4687-A71A-E404153BE00A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,30 @@ Global
 		{540AE36C-AE83-41BC-8C5D-B20010F3FB8B}.Release|x64.Build.0 = Release|Any CPU
 		{540AE36C-AE83-41BC-8C5D-B20010F3FB8B}.Release|x86.ActiveCfg = Release|Any CPU
 		{540AE36C-AE83-41BC-8C5D-B20010F3FB8B}.Release|x86.Build.0 = Release|Any CPU
+		{ACD21DF7-822E-4C90-8DEB-5F0952E9B6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD21DF7-822E-4C90-8DEB-5F0952E9B6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD21DF7-822E-4C90-8DEB-5F0952E9B6E5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ACD21DF7-822E-4C90-8DEB-5F0952E9B6E5}.Debug|x64.Build.0 = Debug|Any CPU
+		{ACD21DF7-822E-4C90-8DEB-5F0952E9B6E5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ACD21DF7-822E-4C90-8DEB-5F0952E9B6E5}.Debug|x86.Build.0 = Debug|Any CPU
+		{ACD21DF7-822E-4C90-8DEB-5F0952E9B6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD21DF7-822E-4C90-8DEB-5F0952E9B6E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD21DF7-822E-4C90-8DEB-5F0952E9B6E5}.Release|x64.ActiveCfg = Release|Any CPU
+		{ACD21DF7-822E-4C90-8DEB-5F0952E9B6E5}.Release|x64.Build.0 = Release|Any CPU
+		{ACD21DF7-822E-4C90-8DEB-5F0952E9B6E5}.Release|x86.ActiveCfg = Release|Any CPU
+		{ACD21DF7-822E-4C90-8DEB-5F0952E9B6E5}.Release|x86.Build.0 = Release|Any CPU
+		{52036EC8-06C6-4687-A71A-E404153BE00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52036EC8-06C6-4687-A71A-E404153BE00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52036EC8-06C6-4687-A71A-E404153BE00A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{52036EC8-06C6-4687-A71A-E404153BE00A}.Debug|x64.Build.0 = Debug|Any CPU
+		{52036EC8-06C6-4687-A71A-E404153BE00A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52036EC8-06C6-4687-A71A-E404153BE00A}.Debug|x86.Build.0 = Debug|Any CPU
+		{52036EC8-06C6-4687-A71A-E404153BE00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52036EC8-06C6-4687-A71A-E404153BE00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52036EC8-06C6-4687-A71A-E404153BE00A}.Release|x64.ActiveCfg = Release|Any CPU
+		{52036EC8-06C6-4687-A71A-E404153BE00A}.Release|x64.Build.0 = Release|Any CPU
+		{52036EC8-06C6-4687-A71A-E404153BE00A}.Release|x86.ActiveCfg = Release|Any CPU
+		{52036EC8-06C6-4687-A71A-E404153BE00A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
