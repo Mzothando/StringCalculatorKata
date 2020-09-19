@@ -12,7 +12,8 @@ namespace StringCalculatorKata.Library.Services
         {
             if (!string.IsNullOrWhiteSpace(stringNumbers))
             {
-                var numbers = GetNumbers(stringNumbers);
+                var delimiters = new string[] { "\n", "," };
+                var numbers = GetNumberFromString(stringNumbers, delimiters);
 
                 return numbers.Sum();
             }
@@ -20,10 +21,12 @@ namespace StringCalculatorKata.Library.Services
             return 0;
         }
 
-        private int[] GetNumbers(string stringNumbers)
+        private List<int> GetNumberFromString(string stringNumbers, string[] delimiters)
         {
-            var stringOfNumbers = stringNumbers.Split(',', StringSplitOptions.RemoveEmptyEntries);
-            var numbers = stringOfNumbers.Select(number => int.Parse(number)).ToArray();
+            var numbers = stringNumbers
+                            .Split(delimiters, StringSplitOptions.RemoveEmptyEntries)
+                            .Select(number => int.Parse(number))
+                            .ToList();
 
             return numbers;
         }

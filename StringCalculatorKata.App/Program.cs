@@ -12,7 +12,6 @@ namespace StringCalculatorKata.App
             var stringCalculatorService = new StringCalculatorService();
             var sum = stringCalculatorService.Add(numbers);
             Console.WriteLine($"Sum of '{numbers}': {sum}");
-            //Console.WriteLine("Sum of '" + numbers + "':" + sum);
             Console.Read();
         }
     }
