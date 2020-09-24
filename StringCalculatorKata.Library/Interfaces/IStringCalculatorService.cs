@@ -4,7 +4,8 @@ using System.Text;
 
 namespace StringCalculatorKata.Library.Interfaces
 {
-    interface IStringCalculatorService
+   public interface IStringCalculatorService
     {
+        int Add(string stringNumbers);
     }
 }

@@ -83,8 +83,8 @@ namespace StringCalculatorKata.Tests
 
         }
 
-        [TestCase("1\n2,3", 6)]
-        [TestCase("10,13\n17, 10", 50)]
+        //[TestCase("1\n2,3", 6)]
+        //[TestCase("10,13\n17, 10", 50)]
         [TestCase("203\n150,110\n17,200", 680)]
         public void Add_Given_Numbers_Separated_By_Both_New_Line_And_Comma_Should_Return_Their_Sum(string numbers, int results)
         {
@@ -96,6 +96,21 @@ namespace StringCalculatorKata.Tests
 
             //---------------------------Assert--------------------------------
             actual.Should().Be(results);
+
+        }
+        
+        [Test]
+        public void Add_Given_Numbers_Seperated_By_Pre_Defined_Delimiter_Should_Return_Their_Sum()
+        {
+            //---------------------------Arrange-------------------------------
+            var numbers = "//;\n1;2"; 
+            var stringCalculatorService = new StringCalculatorService();
+
+            //---------------------------Act-----------------------------------
+            var actual = stringCalculatorService.Add(numbers);
+
+            //---------------------------Assert--------------------------------
+            actual.Should().Be(3);
 
         }
     }
